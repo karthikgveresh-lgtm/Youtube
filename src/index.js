@@ -8,7 +8,7 @@ import { DB_NAME } from "./constants.js";
 
 //     (async () => {
 //         try {
-//             await mongoose.connect(`${process.env.MONGODB_URI}/${DB_NAME}`)
+// await mongoose.connect(`${process.env.MONGODB_URI}/${DB_NAME}`)
 //             console.log("MongoDb Connected")
 //             app.on("Error", (error) => {
 //                 console.log("ERROR : ", error)
